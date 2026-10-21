@@ -23,4 +23,6 @@ The LLM agent does judgment (checks tools, ranks, explains both sides, drafts pi
 - API: `uvicorn app.main:app --reload` (port 8000)
 - Frontend (from `frontend/`): `npm install` then `npm run dev` (port 5173, proxies /api to 8000)
 - MCP server: `python mcp_server/server.py` (stdio; needs `pip install -e ".[mcp]"`)
+- Lint: `ruff check . ../mcp_server`
+- Docker: `docker compose up --build` (from repo root)
 - Tests: `pytest`
