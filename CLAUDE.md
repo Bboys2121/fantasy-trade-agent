@@ -22,4 +22,5 @@ The LLM agent does judgment (checks tools, ranks, explains both sides, drafts pi
 - Agent: `python -m app.agent.agent --team "Team Name" "find me a trade for a WR"` (needs ANTHROPIC_API_KEY)
 - API: `uvicorn app.main:app --reload` (port 8000)
 - Frontend (from `frontend/`): `npm install` then `npm run dev` (port 5173, proxies /api to 8000)
+- MCP server: `python mcp_server/server.py` (stdio; needs `pip install -e ".[mcp]"`)
 - Tests: `pytest`
