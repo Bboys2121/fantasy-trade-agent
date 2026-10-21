@@ -1,0 +1,21 @@
+[project]
+name = "fantasy-trade-agent"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "espn_api",
+    "sqlalchemy>=2.0",
+    "python-dotenv",
+    "fastapi",
+    "uvicorn",
+    "anthropic",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
