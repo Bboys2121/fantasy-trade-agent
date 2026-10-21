@@ -18,4 +18,5 @@ The LLM agent does judgment (checks tools, ranks, explains both sides, drafts pi
 ## Commands (run from `backend/`)
 - Install: `pip install -e ".[dev]"`
 - Sync league: `python -m app.sync` (`--save-fixture PATH`, `--from-file PATH`)
+- Trade candidates: `python -m app.analysis.trade_finder --team "Team Name"`
 - Tests: `pytest`

@@ -2,7 +2,7 @@
 
 An AI agent that connects to an ESPN fantasy football league, analyzes every roster, and suggests trades that help both sides.
 
-Status: Milestone 1 (league sync) done. See CLAUDE.md for the plan.
+Status: Milestones 1 (league sync) and 2 (roster analysis) done. See CLAUDE.md for the plan.
 
 ## Setup
 ```
