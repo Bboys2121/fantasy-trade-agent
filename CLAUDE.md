@@ -19,4 +19,5 @@ The LLM agent does judgment (checks tools, ranks, explains both sides, drafts pi
 - Install: `pip install -e ".[dev]"`
 - Sync league: `python -m app.sync` (`--save-fixture PATH`, `--from-file PATH`)
 - Trade candidates: `python -m app.analysis.trade_finder --team "Team Name"`
+- Agent: `python -m app.agent.agent --team "Team Name" "find me a trade for a WR"` (needs ANTHROPIC_API_KEY)
 - Tests: `pytest`
