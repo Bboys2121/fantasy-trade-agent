@@ -5,8 +5,8 @@ Usage (from backend/):
     python -m app.agent.agent --team "Team 1"        # interactive prompt
 """
 import argparse
+from collections.abc import Callable
 from dataclasses import dataclass, field
-from typing import Callable
 
 import anthropic
 

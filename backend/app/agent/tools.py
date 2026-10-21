@@ -4,7 +4,13 @@ wrappers that look things up by name and return JSON-friendly dicts.
 import json
 
 from app.analysis.roster_scoring import (
-    RosterPlayer, best_lineup, lineup_points, needs, rate_team, replacement_levels, surpluses,
+    RosterPlayer,
+    best_lineup,
+    lineup_points,
+    needs,
+    rate_team,
+    replacement_levels,
+    surpluses,
 )
 from app.analysis.trade_finder import find_trades
 

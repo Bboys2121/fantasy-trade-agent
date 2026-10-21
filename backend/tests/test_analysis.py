@@ -2,8 +2,15 @@ import json
 from pathlib import Path
 
 from app.analysis.roster_scoring import (
-    RosterPlayer as P, best_lineup, lineup_points, needs, rate_team,
-    replacement_levels, surpluses,
+    RosterPlayer as P,
+)
+from app.analysis.roster_scoring import (
+    best_lineup,
+    lineup_points,
+    needs,
+    rate_team,
+    replacement_levels,
+    surpluses,
 )
 from app.analysis.trade_finder import find_trades
 

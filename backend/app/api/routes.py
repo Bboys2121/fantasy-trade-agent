@@ -8,7 +8,6 @@ from app.agent.agent import run_agent
 from app.agent.tools import LeagueTools, ToolError
 from app.analysis.roster_scoring import lineup_points, load_rosters
 from app.config import settings
-from app.db.models import Team
 from app.db.session import get_session, make_engine
 
 router = APIRouter(prefix="/api")

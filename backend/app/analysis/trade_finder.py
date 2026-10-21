@@ -5,7 +5,7 @@ Usage (from backend/):  python -m app.analysis.trade_finder --team "Team 1"
 import argparse
 from dataclasses import dataclass
 
-from app.analysis.roster_scoring import RosterPlayer, load_rosters, lineup_points
+from app.analysis.roster_scoring import RosterPlayer, lineup_points, load_rosters
 
 
 @dataclass(frozen=True)
