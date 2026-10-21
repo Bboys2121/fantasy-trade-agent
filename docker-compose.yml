@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file: .env            # read at runtime; never copied into the image
+    environment:
+      DATABASE_URL: sqlite:////data/fantasy.db
+    volumes:
+      - league-data:/data     # keeps the SQLite file across container restarts
+
+volumes:
+  league-data:
