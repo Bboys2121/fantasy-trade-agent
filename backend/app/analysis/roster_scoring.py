@@ -24,6 +24,8 @@ class RosterPlayer:
     position: str
     projected_points: float
     injury_status: str = "ACTIVE"
+    pro_team: str = ""
+    total_points: float = 0.0  # fantasy points scored so far this season
 
     @property
     def points(self) -> float:
@@ -44,7 +46,7 @@ def load_rosters(session: Session) -> dict[str, list[RosterPlayer]]:
     for team in session.scalars(select(Team).order_by(Team.espn_team_id)):
         rosters[team.name] = [
             RosterPlayer(s.player.name, s.player.position, s.player.projected_points,
-                         s.player.injury_status)
+                         s.player.injury_status, s.player.pro_team, s.player.total_points)
             for s in team.roster
         ]
     return rosters
