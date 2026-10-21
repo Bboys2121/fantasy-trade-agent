@@ -13,9 +13,11 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest", "httpx"]
+mcp = ["mcp"]
 
 [tool.setuptools.packages.find]
 include = ["app*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = [".."]  # lets tests import the repo-root mcp_server package
