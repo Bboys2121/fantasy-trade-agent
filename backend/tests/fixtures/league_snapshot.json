@@ -1,0 +1,521 @@
+{
+  "year": 2026,
+  "teams": [
+    {
+      "espn_team_id": 1,
+      "name": "Team 1",
+      "owner": "Owner 1",
+      "wins": 3,
+      "losses": 4,
+      "roster": [
+        {
+          "espn_player_id": 1001,
+          "name": "Player 1001",
+          "position": "QB",
+          "pro_team": "PHI",
+          "injury_status": "QUESTIONABLE",
+          "total_points": 108.9,
+          "projected_points": 272.3,
+          "lineup_slot": "QB"
+        },
+        {
+          "espn_player_id": 1002,
+          "name": "Player 1002",
+          "position": "RB",
+          "pro_team": "MIA",
+          "injury_status": "QUESTIONABLE",
+          "total_points": 83.2,
+          "projected_points": 207.9,
+          "lineup_slot": "RB"
+        },
+        {
+          "espn_player_id": 1003,
+          "name": "Player 1003",
+          "position": "RB",
+          "pro_team": "SF",
+          "injury_status": "QUESTIONABLE",
+          "total_points": 49.4,
+          "projected_points": 123.4,
+          "lineup_slot": "RB"
+        },
+        {
+          "espn_player_id": 1004,
+          "name": "Player 1004",
+          "position": "WR",
+          "pro_team": "DAL",
+          "injury_status": "ACTIVE",
+          "total_points": 60.8,
+          "projected_points": 151.9,
+          "lineup_slot": "WR"
+        },
+        {
+          "espn_player_id": 1005,
+          "name": "Player 1005",
+          "position": "WR",
+          "pro_team": "KC",
+          "injury_status": "ACTIVE",
+          "total_points": 77.0,
+          "projected_points": 192.6,
+          "lineup_slot": "WR"
+        },
+        {
+          "espn_player_id": 1006,
+          "name": "Player 1006",
+          "position": "TE",
+          "pro_team": "KC",
+          "injury_status": "ACTIVE",
+          "total_points": 60.6,
+          "projected_points": 151.6,
+          "lineup_slot": "TE"
+        },
+        {
+          "espn_player_id": 1007,
+          "name": "Player 1007",
+          "position": "WR",
+          "pro_team": "KC",
+          "injury_status": "ACTIVE",
+          "total_points": 63.4,
+          "projected_points": 158.4,
+          "lineup_slot": "FLEX"
+        },
+        {
+          "espn_player_id": 1008,
+          "name": "Player 1008",
+          "position": "RB",
+          "pro_team": "DAL",
+          "injury_status": "QUESTIONABLE",
+          "total_points": 62.4,
+          "projected_points": 156.1,
+          "lineup_slot": "BE"
+        },
+        {
+          "espn_player_id": 1009,
+          "name": "Player 1009",
+          "position": "WR",
+          "pro_team": "SF",
+          "injury_status": "ACTIVE",
+          "total_points": 79.2,
+          "projected_points": 198.1,
+          "lineup_slot": "BE"
+        },
+        {
+          "espn_player_id": 1010,
+          "name": "Player 1010",
+          "position": "WR",
+          "pro_team": "SF",
+          "injury_status": "ACTIVE",
+          "total_points": 93.6,
+          "projected_points": 233.9,
+          "lineup_slot": "BE"
+        },
+        {
+          "espn_player_id": 1011,
+          "name": "Player 1011",
+          "position": "TE",
+          "pro_team": "PHI",
+          "injury_status": "ACTIVE",
+          "total_points": 36.4,
+          "projected_points": 91.1,
+          "lineup_slot": "BE"
+        },
+        {
+          "espn_player_id": 1012,
+          "name": "Player 1012",
+          "position": "RB",
+          "pro_team": "MIA",
+          "injury_status": "ACTIVE",
+          "total_points": 68.3,
+          "projected_points": 170.7,
+          "lineup_slot": "BE"
+        }
+      ]
+    },
+    {
+      "espn_team_id": 2,
+      "name": "Team 2",
+      "owner": "Owner 2",
+      "wins": 4,
+      "losses": 6,
+      "roster": [
+        {
+          "espn_player_id": 1013,
+          "name": "Player 1013",
+          "position": "QB",
+          "pro_team": "MIA",
+          "injury_status": "QUESTIONABLE",
+          "total_points": 127.5,
+          "projected_points": 318.7,
+          "lineup_slot": "QB"
+        },
+        {
+          "espn_player_id": 1014,
+          "name": "Player 1014",
+          "position": "RB",
+          "pro_team": "SF",
+          "injury_status": "ACTIVE",
+          "total_points": 88.7,
+          "projected_points": 221.7,
+          "lineup_slot": "RB"
+        },
+        {
+          "espn_player_id": 1015,
+          "name": "Player 1015",
+          "position": "RB",
+          "pro_team": "DAL",
+          "injury_status": "ACTIVE",
+          "total_points": 52.2,
+          "projected_points": 130.5,
+          "lineup_slot": "RB"
+        },
+        {
+          "espn_player_id": 1016,
+          "name": "Player 1016",
+          "position": "WR",
+          "pro_team": "DAL",
+          "injury_status": "ACTIVE",
+          "total_points": 71.2,
+          "projected_points": 178.0,
+          "lineup_slot": "WR"
+        },
+        {
+          "espn_player_id": 1017,
+          "name": "Player 1017",
+          "position": "WR",
+          "pro_team": "SF",
+          "injury_status": "QUESTIONABLE",
+          "total_points": 76.1,
+          "projected_points": 190.2,
+          "lineup_slot": "WR"
+        },
+        {
+          "espn_player_id": 1018,
+          "name": "Player 1018",
+          "position": "TE",
+          "pro_team": "BUF",
+          "injury_status": "ACTIVE",
+          "total_points": 54.3,
+          "projected_points": 135.7,
+          "lineup_slot": "TE"
+        },
+        {
+          "espn_player_id": 1019,
+          "name": "Player 1019",
+          "position": "WR",
+          "pro_team": "BUF",
+          "injury_status": "ACTIVE",
+          "total_points": 92.0,
+          "projected_points": 230.1,
+          "lineup_slot": "FLEX"
+        },
+        {
+          "espn_player_id": 1020,
+          "name": "Player 1020",
+          "position": "RB",
+          "pro_team": "KC",
+          "injury_status": "QUESTIONABLE",
+          "total_points": 60.0,
+          "projected_points": 150.0,
+          "lineup_slot": "BE"
+        },
+        {
+          "espn_player_id": 1021,
+          "name": "Player 1021",
+          "position": "WR",
+          "pro_team": "SF",
+          "injury_status": "ACTIVE",
+          "total_points": 55.5,
+          "projected_points": 138.7,
+          "lineup_slot": "BE"
+        },
+        {
+          "espn_player_id": 1022,
+          "name": "Player 1022",
+          "position": "WR",
+          "pro_team": "DAL",
+          "injury_status": "QUESTIONABLE",
+          "total_points": 87.6,
+          "projected_points": 219.0,
+          "lineup_slot": "BE"
+        },
+        {
+          "espn_player_id": 1023,
+          "name": "Player 1023",
+          "position": "TE",
+          "pro_team": "MIA",
+          "injury_status": "ACTIVE",
+          "total_points": 39.6,
+          "projected_points": 99.1,
+          "lineup_slot": "BE"
+        },
+        {
+          "espn_player_id": 1024,
+          "name": "Player 1024",
+          "position": "RB",
+          "pro_team": "BUF",
+          "injury_status": "ACTIVE",
+          "total_points": 55.3,
+          "projected_points": 138.2,
+          "lineup_slot": "BE"
+        }
+      ]
+    },
+    {
+      "espn_team_id": 3,
+      "name": "Team 3",
+      "owner": "Owner 3",
+      "wins": 5,
+      "losses": 4,
+      "roster": [
+        {
+          "espn_player_id": 1025,
+          "name": "Player 1025",
+          "position": "QB",
+          "pro_team": "KC",
+          "injury_status": "ACTIVE",
+          "total_points": 90.6,
+          "projected_points": 226.4,
+          "lineup_slot": "QB"
+        },
+        {
+          "espn_player_id": 1026,
+          "name": "Player 1026",
+          "position": "RB",
+          "pro_team": "BUF",
+          "injury_status": "ACTIVE",
+          "total_points": 76.5,
+          "projected_points": 191.3,
+          "lineup_slot": "RB"
+        },
+        {
+          "espn_player_id": 1027,
+          "name": "Player 1027",
+          "position": "RB",
+          "pro_team": "PHI",
+          "injury_status": "ACTIVE",
+          "total_points": 73.4,
+          "projected_points": 183.6,
+          "lineup_slot": "RB"
+        },
+        {
+          "espn_player_id": 1028,
+          "name": "Player 1028",
+          "position": "WR",
+          "pro_team": "MIA",
+          "injury_status": "ACTIVE",
+          "total_points": 71.8,
+          "projected_points": 179.4,
+          "lineup_slot": "WR"
+        },
+        {
+          "espn_player_id": 1029,
+          "name": "Player 1029",
+          "position": "WR",
+          "pro_team": "DAL",
+          "injury_status": "ACTIVE",
+          "total_points": 81.0,
+          "projected_points": 202.5,
+          "lineup_slot": "WR"
+        },
+        {
+          "espn_player_id": 1030,
+          "name": "Player 1030",
+          "position": "TE",
+          "pro_team": "BUF",
+          "injury_status": "QUESTIONABLE",
+          "total_points": 40.6,
+          "projected_points": 101.6,
+          "lineup_slot": "TE"
+        },
+        {
+          "espn_player_id": 1031,
+          "name": "Player 1031",
+          "position": "WR",
+          "pro_team": "KC",
+          "injury_status": "ACTIVE",
+          "total_points": 67.8,
+          "projected_points": 169.4,
+          "lineup_slot": "FLEX"
+        },
+        {
+          "espn_player_id": 1032,
+          "name": "Player 1032",
+          "position": "RB",
+          "pro_team": "SF",
+          "injury_status": "ACTIVE",
+          "total_points": 78.0,
+          "projected_points": 195.1,
+          "lineup_slot": "BE"
+        },
+        {
+          "espn_player_id": 1033,
+          "name": "Player 1033",
+          "position": "WR",
+          "pro_team": "DAL",
+          "injury_status": "ACTIVE",
+          "total_points": 83.3,
+          "projected_points": 208.2,
+          "lineup_slot": "BE"
+        },
+        {
+          "espn_player_id": 1034,
+          "name": "Player 1034",
+          "position": "WR",
+          "pro_team": "DAL",
+          "injury_status": "QUESTIONABLE",
+          "total_points": 83.7,
+          "projected_points": 209.2,
+          "lineup_slot": "BE"
+        },
+        {
+          "espn_player_id": 1035,
+          "name": "Player 1035",
+          "position": "TE",
+          "pro_team": "SF",
+          "injury_status": "ACTIVE",
+          "total_points": 36.0,
+          "projected_points": 90.0,
+          "lineup_slot": "BE"
+        },
+        {
+          "espn_player_id": 1036,
+          "name": "Player 1036",
+          "position": "RB",
+          "pro_team": "MIA",
+          "injury_status": "ACTIVE",
+          "total_points": 81.6,
+          "projected_points": 203.9,
+          "lineup_slot": "BE"
+        }
+      ]
+    },
+    {
+      "espn_team_id": 4,
+      "name": "Team 4",
+      "owner": "Owner 4",
+      "wins": 2,
+      "losses": 4,
+      "roster": [
+        {
+          "espn_player_id": 1037,
+          "name": "Player 1037",
+          "position": "QB",
+          "pro_team": "SF",
+          "injury_status": "ACTIVE",
+          "total_points": 107.2,
+          "projected_points": 268.0,
+          "lineup_slot": "QB"
+        },
+        {
+          "espn_player_id": 1038,
+          "name": "Player 1038",
+          "position": "RB",
+          "pro_team": "SF",
+          "injury_status": "ACTIVE",
+          "total_points": 63.5,
+          "projected_points": 158.8,
+          "lineup_slot": "RB"
+        },
+        {
+          "espn_player_id": 1039,
+          "name": "Player 1039",
+          "position": "RB",
+          "pro_team": "MIA",
+          "injury_status": "ACTIVE",
+          "total_points": 74.8,
+          "projected_points": 187.0,
+          "lineup_slot": "RB"
+        },
+        {
+          "espn_player_id": 1040,
+          "name": "Player 1040",
+          "position": "WR",
+          "pro_team": "BUF",
+          "injury_status": "QUESTIONABLE",
+          "total_points": 74.2,
+          "projected_points": 185.4,
+          "lineup_slot": "WR"
+        },
+        {
+          "espn_player_id": 1041,
+          "name": "Player 1041",
+          "position": "WR",
+          "pro_team": "MIA",
+          "injury_status": "ACTIVE",
+          "total_points": 64.3,
+          "projected_points": 160.7,
+          "lineup_slot": "WR"
+        },
+        {
+          "espn_player_id": 1042,
+          "name": "Player 1042",
+          "position": "TE",
+          "pro_team": "SF",
+          "injury_status": "ACTIVE",
+          "total_points": 52.7,
+          "projected_points": 131.7,
+          "lineup_slot": "TE"
+        },
+        {
+          "espn_player_id": 1043,
+          "name": "Player 1043",
+          "position": "WR",
+          "pro_team": "PHI",
+          "injury_status": "ACTIVE",
+          "total_points": 56.7,
+          "projected_points": 141.7,
+          "lineup_slot": "FLEX"
+        },
+        {
+          "espn_player_id": 1044,
+          "name": "Player 1044",
+          "position": "RB",
+          "pro_team": "DAL",
+          "injury_status": "ACTIVE",
+          "total_points": 74.1,
+          "projected_points": 185.3,
+          "lineup_slot": "BE"
+        },
+        {
+          "espn_player_id": 1045,
+          "name": "Player 1045",
+          "position": "WR",
+          "pro_team": "MIA",
+          "injury_status": "ACTIVE",
+          "total_points": 81.3,
+          "projected_points": 203.3,
+          "lineup_slot": "BE"
+        },
+        {
+          "espn_player_id": 1046,
+          "name": "Player 1046",
+          "position": "WR",
+          "pro_team": "DAL",
+          "injury_status": "ACTIVE",
+          "total_points": 48.0,
+          "projected_points": 120.0,
+          "lineup_slot": "BE"
+        },
+        {
+          "espn_player_id": 1047,
+          "name": "Player 1047",
+          "position": "TE",
+          "pro_team": "SF",
+          "injury_status": "QUESTIONABLE",
+          "total_points": 38.0,
+          "projected_points": 94.9,
+          "lineup_slot": "BE"
+        },
+        {
+          "espn_player_id": 1048,
+          "name": "Player 1048",
+          "position": "RB",
+          "pro_team": "SF",
+          "injury_status": "ACTIVE",
+          "total_points": 77.6,
+          "projected_points": 194.1,
+          "lineup_slot": "BE"
+        }
+      ]
+    }
+  ]
+}
